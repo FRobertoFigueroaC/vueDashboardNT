@@ -1,0 +1,42 @@
+{
+  "name": "advantch-vue-starter",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@radix-icons/vue": "^1.0.0",
+    "@vee-validate/zod": "^4.12.5",
+    "@vueuse/core": "^10.7.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "embla-carousel": "8.0.0-rc22",
+    "embla-carousel-vue": "8.0.0-rc22",
+    "radix-vue": "^1.4.2",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7",
+    "v-calendar": "^3.1.2",
+    "vee-validate": "^4.12.5",
+    "vue": "^3.4.15",
+    "vue-sonner": "^1.0.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.4",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "install": "^0.13.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0",
+    "vue-tsc": "^1.8.27"
+  }
+}

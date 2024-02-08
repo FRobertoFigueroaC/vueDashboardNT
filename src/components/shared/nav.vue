@@ -10,12 +10,12 @@ import {
   <div class="flex w-full items-center p-4 justify-center">
     <NavigationMenu>
       <NavigationMenuList>
-        <NavigationMenuItem>
+        <NavigationMenuItem class="bg-white rounded shadow p-2 mx-2">
           <router-link to="/">
             Home
           </router-link>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+        <NavigationMenuItem class="bg-white rounded shadow p-2 mx-2">
           <router-link to="/about">
             About
           </router-link>

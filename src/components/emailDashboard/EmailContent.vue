@@ -7,12 +7,12 @@ const {content} = defineProps<{content: EmailProps}>();
 </script>
 
 <template>
- <div
-    class="app font-sans min-w-screen min-h-screen bg-grey-lighter">
+ <div v-if="content"
+    class="w-full h-[360px] rounded overflow-hidden bg-white">
 
-    <div class="mail__wrapper max-w-md mx-auto">
-      <div class="mail__content bg-white p-8 shadow-md">
-        <div class="content__body py-8 border-b">
+    <div class="max-w-md mx-auto">
+      <div class="bg-white p-8">
+        <div class="py-8 border-b">
           <h3 class="text-center text-2xl sm:text-3xl pt-4 mb-8 ">
             {{content.subject}}
           </h3>
@@ -21,7 +21,7 @@ const {content} = defineProps<{content: EmailProps}>();
           </p>
         </div>
 
-        <div class="content__footer mt-8 text-center text-grey-darker">
+        <div class="mt-8 text-center text-grey-darker">
           <h3 class="text-base sm:text-lg mb-4">
             {{content.name}}
           </h3>

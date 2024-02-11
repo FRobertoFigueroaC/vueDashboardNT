@@ -1,0 +1,84 @@
+{
+  "email_list": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "subject": "Meeting Reminder",
+      "body_text": "This is a reminder for our meeting tomorrow at 10:00 AM. Please be punctual.",
+      "important": true
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "subject": "Report Submission",
+      "body_text": "Please submit your report by the end of the day. Let me know if you need any assistance.",
+      "important": false
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "email": "michael.johnson@example.com",
+      "subject": "Project Update",
+      "body_text": "Here's the latest update on our project progress. Please review and provide your feedback.",
+      "important": false
+    },
+    {
+      "id": 4,
+      "name": "Emily Brown",
+      "email": "emily.brown@example.com",
+      "subject": "Urgent: Action Required",
+      "body_text": "We need your immediate attention on the issue reported. Please take necessary actions.",
+      "important": true
+    },
+    {
+      "id": 5,
+      "name": "David Wilson",
+      "email": "david.wilson@example.com",
+      "subject": "Weekly Newsletter",
+      "body_text": "Check out this week's newsletter for important updates and announcements.",
+      "important": false
+    },
+    {
+      "id": 6,
+      "name": "Sarah Taylor",
+      "email": "sarah.taylor@example.com",
+      "subject": "Upcoming Event",
+      "body_text": "Don't forget about the upcoming event this weekend. Here are the details.",
+      "important": false
+    },
+    {
+      "id": 7,
+      "name": "Christopher Lee",
+      "email": "christopher.lee@example.com",
+      "subject": "Feedback Request",
+      "body_text": "We value your opinion! Please take a moment to provide feedback on our recent service.",
+      "important": false
+    },
+    {
+      "id": 8,
+      "name": "Amanda Martinez",
+      "email": "amanda.martinez@example.com",
+      "subject": "Action Items",
+      "body_text": "Attached are the action items from our last meeting. Please review and update accordingly.",
+      "important": true
+    },
+    {
+      "id": 9,
+      "name": "Kevin Anderson",
+      "email": "kevin.anderson@example.com",
+      "subject": "Vacation Request",
+      "body_text": "I'll be on vacation next week. Please take note of my absence.",
+      "important": false
+    },
+    {
+      "id": 10,
+      "name": "Laura Garcia",
+      "email": "laura.garcia@example.com",
+      "subject": "Weekly Status Report",
+      "body_text": "Please submit your weekly status report by Friday. Let me know if you encounter any issues.",
+      "important": true
+    }
+  ]
+}

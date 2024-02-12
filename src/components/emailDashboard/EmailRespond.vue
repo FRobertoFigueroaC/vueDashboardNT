@@ -3,13 +3,13 @@ import { EmailProps } from '../../interfaces/Email'
 
 import Toolbar from '../shared/Toolbar.vue'
 import {Textarea} from '../ui/textarea'
-const {content} = defineProps<{content: EmailProps}>();
+const {content} = defineProps<{content: EmailProps | null}>();
 
 const respondValue = ''
 </script>
 
 <template>
-<div  v-if="content" class="">
+<div  v-if="content">
   <Toolbar class="py-4 my-4 "/>
   <form
     class="bg-white mb-6 py-2">

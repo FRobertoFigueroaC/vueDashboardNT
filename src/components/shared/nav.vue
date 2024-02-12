@@ -11,18 +11,13 @@ import {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem class="bg-white rounded shadow p-2 mx-2">
-          <router-link to="/">
-            Home
-          </router-link>
-        </NavigationMenuItem>
-        <NavigationMenuItem class="bg-white rounded shadow p-2 mx-2">
-          <router-link to="/about">
-            About
-          </router-link>
-        </NavigationMenuItem>
-        <NavigationMenuItem class="bg-white rounded shadow p-2 mx-2">
           <router-link to="/email">
             Email Dashboard
+          </router-link>
+        </NavigationMenuItem>
+        <NavigationMenuItem class="bg-white rounded shadow p-2 mx-2">
+          <router-link to="/email-panels">
+            Email Dashboard (Panels)
           </router-link>
         </NavigationMenuItem>
       </NavigationMenuList>

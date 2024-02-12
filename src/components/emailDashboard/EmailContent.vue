@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { EmailProps } from '../../interfaces/Email'
 
-const {content} = defineProps<{content: EmailProps}>();
+const {content} = defineProps<{content: EmailProps | null}>();
 
 
 </script>

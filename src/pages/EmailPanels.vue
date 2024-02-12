@@ -23,15 +23,30 @@ const onChangeMailSelection =  (n: EmailProps) => {
 <template>
   <div class="w-full h-screen flex flex-col bg-gradient-to-br from-indigo-50 via-indigo-200 to-purple-300">
     <Nav />
-    <div class="grid sm:grid-cols-1  md:grid-cols-2 gap-1">
-      <EmailList 
+
+  <div class="PanelGroupWrapper gap-4">
+    <PanelGroup class="PanelGroup" direction="horizontal" :defaultSizePercentage="80" >
+      <Panel class="PanelRow" :defaultSize="30">
+        <EmailList 
             :emails="emails"
             :content="selectedEmail"
             @mailSelection="onChangeMailSelection"/>
-      <EmailContent :content="selectedEmail"/>
-    </div>
-    <div class="grid grid-cols-1 gap-1">
-      <EmailRespond :content="selectedEmail"/>
-    </div>
+      </Panel>
+      <ResizeHandle class="ResizeHandle" />
+      <Panel class="PanelRow" :defaultSize="70" v-if="selectedEmail">
+        <EmailContent :content="selectedEmail"/>
+      </Panel>
+      <ResizeHandle class="ResizeHandle" />
+    </PanelGroup>
+    <PanelGroup class="PanelGroup" direction="vertical" :defaultSizePercentage="80" v-if="selectedEmail">
+      <Panel :defaultSize="80">
+        <EmailRespond :content="selectedEmail"/>
+      </Panel>
+      <ResizeHandle class="ResizeHandle" />
+    </PanelGroup>
+  </div>
+
+
   </div>
 </template>
+
